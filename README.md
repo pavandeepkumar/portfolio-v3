@@ -4,7 +4,7 @@ Welcome to my personal portfolio repository! 🚀
 This project showcases my **skills, projects, and professional journey** as a Full-Stack / MERN Developer.  
 It is designed to give recruiters, companies, and collaborators a clear overview of my work, experience, and capabilities.
 
----
+----
 
 ## 📖 About the Project
 
