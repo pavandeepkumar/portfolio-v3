@@ -116,7 +116,7 @@ const ProjectDetail = () => {
         }
       ],
       github: "#",
-      live: "https://admin.naibeau.com"
+      live: "https://naibeau.com"
     },
     netparts: {
       title: "🚗 Netparts - Auto Parts E-commerce",
@@ -272,7 +272,7 @@ const ProjectDetail = () => {
         }
       ],
       github: "#",
-      live: "#"
+      live: "https://socialscribeai.com/"
     },
     porter: {
       title: "⚡ Porter-like Delivery System",
