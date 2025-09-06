@@ -29,7 +29,7 @@ const Projects = () => {
       tech: ["React", "Vite", "PostgreSQL", "TanStack Query"],
       image: "https://images.unsplash.com/photo-1560066984-138dadb4c035?auto=format&fit=crop&w=800&q=80",
       github: "#",
-      live: "https://admin.naibeau.com"
+      live: "https://naibeau.com"
     },
     {
       id: "netparts",
@@ -56,7 +56,7 @@ const Projects = () => {
       tech: ["React", "Chart.js", "Express", "OpenAI API"],
       image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80",
       github: "#",
-      live: "#"
+      live: "https://socialscribeai.com/"
     },
     {
       id: "porter",
