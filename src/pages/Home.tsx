@@ -1,4 +1,3 @@
-
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Skills from "@/components/Skills";
@@ -13,7 +12,7 @@ const Home = () => {
   return (
     <div className="min-h-screen">
       <ScrollProgress />
-      <ThemeToggle />
+      {/* <ThemeToggle /> */}
       <StickyContact />
       <Hero />
       <About />

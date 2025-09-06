@@ -17,13 +17,60 @@ const About = () => {
               <span className="text-primary font-semibold">2.5 years of hands-on experience</span>, I've led teams, 
               trained React interns, and delivered scalable solutions across multiple industries.
             </p>
+             <div className="glass-card p-8 rounded-2xl mb-12 bg-gradient-to-br from-primary/5 to-accent/5 border border-primary/10">
+              <h3 className="text-xl font-semibold text-primary mb-6 text-left">My Experience & Key Contributions</h3>
+              
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-left">
+                <div className="space-y-4">
+                  <div className="flex items-start space-x-3">
+                    <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                    <div>
+                      <h4 className="font-semibold text-foreground mb-1">📦 Boilerplate Architecture</h4>
+                      <p className="text-sm text-muted-foreground">Created reusable project templates, reducing setup time by 60%</p>
+                    </div>
+                  </div>
+                  
+                  <div className="flex items-start space-x-3">
+                    <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                    <div>
+                      <h4 className="font-semibold text-foreground mb-1">🔗 Custom React Hooks</h4>
+                      <p className="text-sm text-muted-foreground">Built reusable hooks for state management and API interactions</p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div className="space-y-4">
+                  <div className="flex items-start space-x-3">
+                    <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                    <div>
+                      <h4 className="font-semibold text-foreground mb-1">🏗️ Scalable Architecture</h4>
+                      <p className="text-sm text-muted-foreground">Designed feature-based modular systems for better maintainability</p>
+                    </div>
+                  </div>
+                  
+                  <div className="flex items-start space-x-3">
+                    <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0"></div>
+                    <div>
+                      <h4 className="font-semibold text-foreground mb-1">🚀 Modern Tech Integration</h4>
+                      <p className="text-sm text-muted-foreground">Adopted Next.js, Zustand, and Shadcn for enhanced performance</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
             
-            <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-12">
+            <p className="text-lg text-muted-foreground leading-relaxed mb-12">
+              Currently pursuing my degree (graduating 2026) while working full-time on enterprise-level projects, 
+              specializing in <span className="text-accent">e-commerce platforms</span>, <span className="text-accent">real estate systems</span>, 
+              and <span className="text-accent">AI-powered tools</span>.
+              </p>
+            
+            {/* <p className="text-lg md:text-xl text-muted-foreground leading-relaxed mb-12">
               I specialize in designing and building complete systems from concept to deployment, including{" "}
               <span className="text-accent">e-commerce platforms</span>, <span className="text-accent">real estate management systems</span>, 
               and <span className="text-accent">AI-powered tools</span>. Currently pursuing my degree (graduating 2026) while 
               working full-time on enterprise-level projects.
-            </p>
+            </p> */}
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="glass-card p-6 rounded-2xl animate-slide-up animate-delay-100">

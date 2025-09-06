@@ -31,14 +31,9 @@ const Footer = () => {
             </a>
           </div>
           
-          <p className="text-muted-foreground mb-4">
-            © 2024 Pavandeep Kumar. All rights reserved.
-          </p>
-          
           <p className="text-sm text-muted-foreground flex items-center justify-center space-x-1">
             <span>Built with</span>
-            <Heart className="h-4 w-4 text-red-500 animate-pulse" />
-            <span>using React, TypeScript & Tailwind CSS</span>
+            <span> ❤️ by Pavandeep Kumar</span>
           </p>
         </div>
       </div>

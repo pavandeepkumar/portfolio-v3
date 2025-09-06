@@ -45,7 +45,7 @@ const Projects = () => {
       title: "🎬 Reelflix - Short Video Platform",
       description: "A short-form entertainment platform enabling creators to upload content and viewers to enjoy engaging, high-quality short videos. Built with scalability and smooth video playback for modern audiences.",
       tech: ["React", "Socket.io", "Node.js", "Redis"],
-      image: "https://images.unsplash.com/photo-1489599953163-2ddc4c2e99eb?auto=format&fit=crop&w=800&q=80",
+      image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?auto=format&fit=crop&w=800&q=80",
       github: "#",
       live: "#"
     },
@@ -54,7 +54,7 @@ const Projects = () => {
       title: "✍️ Social Scribe - AI Content Tool",
       description: "An AI-powered tool that helps businesses and creators generate engaging social media content. Provides analytics and automated engagement strategies to boost reach and online presence.",
       tech: ["React", "Chart.js", "Express", "OpenAI API"],
-      image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=800&q=80",
+      image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80",
       github: "#",
       live: "#"
     },

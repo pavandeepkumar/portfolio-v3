@@ -4,7 +4,7 @@ import { Mail, MapPin, Phone, Send } from "lucide-react";
 
 const Contact = () => {
   return (
-    <section className="py-20">
+    <section className="py-20" id="contact">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">
@@ -54,7 +54,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold">Location</h4>
-                  <p className="text-muted-foreground">Available for remote work</p>
+                  <p className="text-muted-foreground">India </p>
                 </div>
               </div>
             </div>

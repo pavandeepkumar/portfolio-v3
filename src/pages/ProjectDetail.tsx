@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowLeft, ExternalLink, Github } from "lucide-react";
+import { useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 
 const ProjectDetail = () => {
@@ -177,7 +178,7 @@ const ProjectDetail = () => {
     reelflix: {
       title: "🎬 Reelflix - Short Video Platform",
       description: "A short-form entertainment platform enabling creators to upload content and viewers to enjoy engaging, high-quality short videos. Built with scalability and smooth video playback for modern audiences.",
-      image: "https://images.unsplash.com/photo-1489599953163-2ddc4c2e99eb?auto=format&fit=crop&w=800&q=80",
+      image: "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?auto=format&fit=crop&w=800&q=80",
       totalTech: 4,
       keyFeatures: 7,
       technologies: [
@@ -229,7 +230,7 @@ const ProjectDetail = () => {
     socialscribe: {
       title: "✍️ Social Scribe - AI Content Tool",
       description: "An AI-powered tool that helps businesses and creators generate engaging social media content. Provides analytics and automated engagement strategies to boost reach and online presence.",
-      image: "https://images.unsplash.com/photo-1611162617474-5b21e879e113?auto=format&fit=crop&w=800&q=80",
+      image: "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80",
       totalTech: 4,
       keyFeatures: 6,
       technologies: [
@@ -321,6 +322,9 @@ const ProjectDetail = () => {
       live: "#"
     }
   };
+  useEffect(()=>{
+    window.scrollTo(0, 0);
+  }, []);
 
   const project = projects[projectId as keyof typeof projects];
 
