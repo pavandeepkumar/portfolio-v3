@@ -35,7 +35,7 @@ The portfolio is designed with a strong focus on:
 ## 🛠️ Tech Stack
 
 - **Frontend:** React.js, Next.js, TailwindCSS, Framer Motion, Shadcn/UI  
-- **Backend (if applicable):** Node.js, Express.js, NestJS  
+- **Backend :** Node.js, Express.js, NestJS  
 - **Database:** MongoDB, PostgreSQL, MySQL  
 - **Other Tools:** Docker, AWS, GitHub Actions, TypeORM  
 - **Version Control:** Git & GitHub  
